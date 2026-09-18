@@ -1,5 +1,10 @@
 # Placeholder file to ensure repo is not empty
 # The actual handoff.py will be added by the scraper
 
-leads/
-watermarks/
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Other generated files
+*.log
+*.tmp
